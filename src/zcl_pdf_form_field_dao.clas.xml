@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>DAO class for PDF form field</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>CREATE_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>creates a form field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>DELETE_ENTITIES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>delete all form fields of a PDF file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>DELETE_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>deletes a form field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>GET_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>reads a form field</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>GET_ENTITY_SET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>reads all formfields for a PDF file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>return a PDF form field DAO object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_PDF_FORM_FIELD_DAO</CLSNAME>
+     <CMPNAME>UPDATE_ENTITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>updates a form field</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
